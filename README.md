@@ -12,6 +12,11 @@ UI automated testing framework powered by [Node.js](http://nodejs.org/). It uses
 Nightwatch works with the Selenium standalone server so the first thing you need to do is download the selenium server jar file `selenium-server-standalone-3.x.x.jar` from the Selenium releases page:
 **https://selenium-release.storage.googleapis.com/index.html**
 
+### Update @hubject/nightwatch fork
+Create a pull request from `nightwatchjs/nightwatch/releasev0.9` branch against `hubject/nightwatch/master`.
+
+> This fork is based on 0.9 version of nightwatch, which is still the latest stable version of nightwatch(2018-11-13). Since version 1.0 of nightwatch won't be backwards compatible regarding its code base (1.0 is a complete rewrite), we should skip back to 1.0 at least when 1.0 supports typescript.
+
 ### Install Nightwatch
 
 Install Node.js and then:
