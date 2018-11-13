@@ -14,7 +14,7 @@ Nightwatch works with the Selenium standalone server so the first thing you need
 
 ### @hubject/nightwatch fork
 
-### Why a fork?
+#### Why a fork?
 Originally nightwatch isn't able to load typescript files - This is what this fork fixes (A PR from another contributor trying to solve this, was ignored by the nightwatch team)
 
 #### How to update? 
